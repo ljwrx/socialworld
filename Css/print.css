@@ -1,0 +1,22 @@
+*{margin:0;padding:0}
+.group:before,.group:after{content:"";display:table}
+.group{zoom:1}
+body{font-size:12pt;color:#000;font-family:SimSun, Tohamo, Arial, helvetica, sans-serif;line-height:1.4em;text-shadow:none;width:560pt;background:#fff;margin:0 auto}
+.wrapper{width:100%;float:none;background:transparent;margin:0}
+img{filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%)}
+a{color:#000;background:transparent;text-decoration:none}
+section#info .img_box{float:left;clear:left;margin:10pt}
+section#info .detail{overflow:hidden;zoom:1;margin-top:10pt}
+#bar_code_image{float:right;border:2pt solid #000;width:180pt;margin:10pt}
+.detail .name .given-name{margin-left:-6pt}
+.detail dl dt{float:left;font-weight:700;width:50pt;text-align:right}
+.detail dl dt:after{content:":"}
+#info .intro{overflow:hidden;zoom:1}
+h3{margin:5pt 0;padding:5pt 0}
+h2{border-bottom:2pt solid #000;margin:10pt 0;padding:10pt 0}
+ol.skill_category{text-align:center}
+ol.skill_category li{list-style:none}
+ol.skill_category > li{width:25%;float:left}
+ol.skill_category > li > ul li{margin:3pt}
+.group:after,.vcard{clear:both}
+.detail .name,.detail dl dd{margin-bottom:10pt}
